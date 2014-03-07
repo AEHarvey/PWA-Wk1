@@ -23,14 +23,19 @@
 
     var round=1;
 
-    function fight(){};
+    function fight(){
+        //code goes here
+        winnerCheck()
+    };
+    function winnerCheck(){
+        //codes goes here
 
-    function winnerCheck(){};
+    };
 
-    /*this is where the program actually begins*/
+    /******this is where the program actually begins****/
 
     fight();
-    
+
 
 
 })();
