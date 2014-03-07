@@ -21,5 +21,16 @@
     var playeroneHealth = 100;
     var playertwoHealth = 100;
 
+    var round=1;
+
+    function fight(){};
+
+    function winnerCheck(){};
+
+    /*this is where the program actually begins*/
+
+    fight();
+    
+
 
 })();
