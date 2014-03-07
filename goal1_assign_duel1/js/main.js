@@ -24,8 +24,9 @@
     var round=1;
 
     function fight(){
+        console.log("in the fight function");
         //code goes here
-        winnerCheck()
+
     };
     function winnerCheck(){
         //codes goes here
@@ -33,7 +34,7 @@
     };
 
     /******this is where the program actually begins****/
-
+    console.log("program starts here")
     fight();
 
 
