@@ -30,7 +30,7 @@
 
 
         for(var i=0; i<10; i++){
-        console.log(i);
+            //random formula is - Math.floor(math.random() * (max - min) + min
         }
 
     };
