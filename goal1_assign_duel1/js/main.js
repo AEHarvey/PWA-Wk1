@@ -41,7 +41,8 @@
             playerOneHealth-=f1;
             playerTwoHealth-=f2;
 
-            
+            console.log(playerOneName+":"+playerOneHealth+"*START!!!*"+playerTwoName+playerTwoHealth);
+
         }
 
     };
