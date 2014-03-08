@@ -41,14 +41,28 @@
             playerOneHealth-=f1;
             playerTwoHealth-=f2;
 
-            console.log(playerOneName+":"+playerOneHealth+"*START!!!*"+playerTwoName+playerTwoHealth);
+            console.log(playerOneName+":"+playerOneHealth+" "+playerTwoName+playerTwoHealth);
+
+            var result = winnerCheck();
+            console.log(result);
+
+
 
         }
 
     };
     function winnerCheck(){
-        //codes goes here
+        console.log("in winnerCheck FN")
+        var result="no winner";
 
+        if(playerOneHealth<1&&playerTwoHealth<1){
+            result ="you both die";
+         }else if(playerOneHealth<1){
+            result =playerTwoName+"WINS!!!"
+         }else if(playerTwoHealth<1){
+            result =playerOneName+"WINS!!!"
+        };
+            return result;
     };
 
     /******this is where the program actually begins****/
