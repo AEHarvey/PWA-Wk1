@@ -21,7 +21,7 @@
     var playerOneHealth = 100;
     var playerTwoHealth = 100;
 
-    var round=1;
+    var round=0;
 
     function fight(){
         console.log("in the fight function");
